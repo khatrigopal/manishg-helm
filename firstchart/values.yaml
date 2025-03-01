@@ -1,0 +1,3 @@
+replicas: 5
+#ns: dev
+port: 80
