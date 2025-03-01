@@ -9,5 +9,5 @@ spec:
     - protocol: TCP
       port: {{ .Values.port }}  # The port exposed by the service
       targetPort: {{ .Values.port }}  # The port the container listens on
-  type: LoadBalancer  # Optionally use LoadBalancer if you need an external IP
+  type: NodePort  # Optionally use LoadBalancer if you need an external IP
 
